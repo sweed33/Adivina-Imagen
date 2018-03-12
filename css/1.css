@@ -1,0 +1,51 @@
+*{ 
+	list-style-type:none;
+	text-decoration:none;
+	margin:0px;
+	padding:0px;
+	font-family: 'Alegreya';
+	font-size:110%;
+	text-align: center;
+}
+body{
+	background:#9CA0DE;
+}
+article{
+	width:410px;
+	height:400px;
+	margin-top:20px;
+	margin-left: auto;
+    margin-right: auto;
+	display:block;
+}
+div{
+	float:left;
+}
+input{
+	margin:10px;
+}
+input[type=checkbox]{
+  -webkit-transform: scale(2);/*hace los checkbox más grandes*/
+  padding: 10px;
+}
+img{
+	width:100px;
+	height:100px;
+	margin-top: -10px;
+	-webkit-filter: brightness(0%);
+}
+.fotoFin{
+	width:400px;
+	height:400px;
+	-webkit-filter: brightness(100%);
+}
+p{
+	/*texto centrado*/
+	margin-left: auto;
+    margin-right: auto;
+	display:block;
+}
+form{
+	/*form centrado*/
+	display: inline-block;
+}
